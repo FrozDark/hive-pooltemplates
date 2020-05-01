@@ -51,23 +51,6 @@
         }
     },
     {
-        "coin": "MOAC",
-        "servers": [
-            {
-                "geo": "EU",
-                "urls": [
-                    "moac.hashcity.org:5555"
-                ]
-            }
-        ],
-        "miners": {
-            "_prototype": "miners_ethash",
-            "claymore": {
-                "claymore_user_config": "-allcoins -1\n-allpools 1"
-            }
-        }
-    },
-    {
         "coin": "DBIX",
         "servers": [
             {
